@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-# @Time    : 2022/11/11 17:42
-# @Author  : 张鹤渐
-# @File    : modules.py
-# @Software: PyCharm
-
-
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
