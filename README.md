@@ -19,10 +19,10 @@ conda activate P450Diffusion
 ## P450Diffusion Training 
 1. We use pytorch-lighning to train the denosing diffusion model. Command line arguments can be passed to manipulate the training, details see P450Diffusion_training.ipynb
 2. The datasets for the pre-trained and fine-tuned models are available at dataset/P450_All_Plant_Sequences_datasets.fasta and dataset/CYP706_Similarity_Sequences.fasta
-3. The final model files obtained in this study are shown in model_pt/P450Diffusion_pre_trained_model.pt and model_pt/P450Diffusion_fine_tuning_model.pt
+3. The final model files obtained in this study are shown in model_files/P450Diffusion_pre_trained_model.pt and model_files/P450Diffusion_fine_tuning_model.pt
 ## Sampling Protein Sequences
-1. P450Diffusion pretrained model sampling details in P450Diffusion_pre_trained_model_generate_sequences.ipynb
-2. P450Diffusion fine-tuning model sampling details in P450Diffusion_fine_tuning_model_generate_sequences.ipynb
+1. P450Diffusion pretrained model sampling details in sampling_protein_sequences/P450Diffusion_pre_trained_model_generate_sequences.ipynb
+2. P450Diffusion fine-tuning model sampling details in sampling_protein_sequences/P450Diffusion_fine_tuning_model_generate_sequences.ipynb
 ## Citation
 If you find this repository useful, please cite our paper:
 ```
