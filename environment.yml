@@ -1,7 +1,7 @@
 name: P450Diffusion
 channels:
   - http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main
-  - http://mirrors.ustc.edu.cn/anaconda/cloud/conda-forge
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/
   - bioconda
   - defaults
 dependencies:
