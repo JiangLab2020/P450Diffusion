@@ -1,7 +1,7 @@
 name: P450Diffusion
 channels:
   - http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main
-  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge
   - bioconda
   - defaults
 dependencies:
@@ -14,6 +14,7 @@ dependencies:
   - bzip2=1.0.8=h7f98852_4
   - ca-certificates=2022.9.24=ha878542_0
   - dbus=1.13.6=h5008d03_3
+  - defusedxml=0.7.1=pyhd3eb1b0_0
   - entrypoints=0.4=pyhd8ed1ab_0
   - expat=2.5.0=h27087fc_0
   - fftw=3.3.10=nompi_hf0379b8_105
@@ -33,9 +34,12 @@ dependencies:
   - gstreamer=1.20.3=hd4edc92_2
   - icu=70.1=h27087fc_0
   - importlib-metadata=5.0.0=pyha770c72_1
+  - importlib_metadata=5.0.0=hd8ed1ab_1
   - importlib_resources=5.10.0=pyhd8ed1ab_0
   - jack=1.9.21=h2a1e645_0
   - jpeg=9e=h166bdaf_2
+  - jsonschema-specifications=2023.7.1=py39h06a4308_0
+  - jupyterlab_pygments=0.2.2=py39h06a4308_0
   - keyutils=1.6.1=h166bdaf_0
   - krb5=1.19.3=h3790be6_0
   - lame=3.100=h166bdaf_1003
@@ -74,6 +78,7 @@ dependencies:
   - libxml2=2.10.3=h7463322_0
   - libzlib=1.2.13=h166bdaf_4
   - markupsafe=2.1.1=py39hb9d737c_2
+  - mistune=2.0.4=py39h06a4308_0
   - mpg123=1.30.2=h27087fc_1
   - mysql-common=8.0.31=haf5c9bc_0
   - mysql-libs=8.0.31=h28c427c_0
@@ -84,6 +89,7 @@ dependencies:
   - openssl=1.1.1q=h166bdaf_1
   - packaging=21.3=pyhd8ed1ab_0
   - pandoc=2.19.2=h32600fe_1
+  - pandocfilters=1.5.0=pyhd3eb1b0_0
   - pcre2=10.37=hc3806b6_1
   - pip=22.3=pyhd8ed1ab_0
   - pkgutil-resolve-name=1.3.10=pyhd8ed1ab_0
@@ -96,17 +102,23 @@ dependencies:
   - pyqt5-sip=12.11.0=py39h5a03fae_2
   - python=3.9.13=h9a8a25e_0_cpython
   - python-dateutil=2.8.2=pyhd8ed1ab_0
+  - python-fastjsonschema=2.16.2=py39h06a4308_0
   - python_abi=3.9=2_cp39
   - qt-main=5.15.6=hc525480_0
   - readline=8.1.2=h0f457ee_0
+  - referencing=0.30.2=py39h06a4308_0
+  - rpds-py=0.10.6=py39hb02cf49_0
   - setuptools=58.0.4=py39hf3d152e_2
   - sip=6.7.2=py39h5a03fae_1
   - six=1.16.0=pyh6c4a22f_0
   - sqlite=3.39.4=h4ff8645_0
+  - tinycss2=1.2.1=py39h06a4308_0
   - tk=8.6.12=h27826a3_0
   - toml=0.10.2=pyhd8ed1ab_0
   - typing_extensions=4.4.0=pyha770c72_0
   - tzdata=2022e=h191b570_0
+  - wcwidth=0.2.5=pyhd3eb1b0_0
+  - webencodings=0.5.1=py39h06a4308_1
   - wheel=0.37.1=pyhd8ed1ab_0
   - xcb-util=0.4.0=h166bdaf_0
   - xcb-util-image=0.4.0=h166bdaf_0
@@ -141,9 +153,7 @@ dependencies:
     - cycler==0.11.0
     - debugpy==1.6.4
     - decorator==5.1.1
-    - defusedxml==0.7.1
     - executing==1.2.0
-    - fastjsonschema==2.16.2
     - fonttools==4.38.0
     - fqdn==1.5.1
     - future==0.18.2
@@ -167,13 +177,11 @@ dependencies:
     - jupyter-events==0.5.0
     - jupyter-server==2.0.6
     - jupyter-server-terminals==0.4.3
-    - jupyterlab-pygments==0.2.2
     - jupyterlab-widgets==3.0.5
     - kiwisolver==1.4.4
     - markdown==3.4.1
     - matplotlib==3.6.1
     - matplotlib-inline==0.1.6
-    - mistune==2.0.4
     - nbclassic==0.4.8
     - nbclient==0.7.2
     - nbconvert==7.2.7
@@ -183,7 +191,6 @@ dependencies:
     - notebook-shim==0.2.2
     - numpy==1.23.4
     - oauthlib==3.2.2
-    - pandocfilters==1.5.0
     - parso==0.8.3
     - pexpect==4.8.0
     - pickleshare==0.7.5
@@ -219,18 +226,12 @@ dependencies:
     - tensorboard-data-server==0.6.1
     - tensorboard-plugin-wit==1.8.1
     - terminado==0.17.1
-    - tinycss2==1.2.1
-    - torch==1.10.0+cu111
-    - torchaudio==0.10.0+rocm4.1
-    - torchvision==0.11.0+cu111
     - tornado==6.2
     - tqdm==4.64.1
     - traitlets==5.8.0
     - uri-template==1.2.0
     - urllib3==1.26.12
-    - wcwidth==0.2.5
     - webcolors==1.12
-    - webencodings==0.5.1
     - websocket-client==1.4.2
     - werkzeug==2.2.2
     - widgetsnbextension==4.0.5
